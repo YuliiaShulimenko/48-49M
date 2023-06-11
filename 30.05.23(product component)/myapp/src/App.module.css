@@ -1,0 +1,29 @@
+.app{
+    display: flex;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.appDark {
+    border-color: white;
+  }
+
+.switch_div{
+    flex-direction: row;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    font-style: italic;
+    
+}
+
+.switch_div.dark {
+    color: white;
+  }
+
+
